@@ -10,7 +10,7 @@ WHERE DO I PLAY THIS GAME? This game can be played through the p5js.org using th
 
 This game can be played only on PC.
 
-HOW TO PLAY?:
+HOW TO PLAY?
 
 The up key moves the cow forward.
 
@@ -23,3 +23,6 @@ The right key moves the cow to the right.
 If the cow crosses the highway you get one point.
 
 If the cow got hit by a car you lose one point.
+
+![Captura de Tela (6)](https://user-images.githubusercontent.com/66140734/149457559-28f8c8d9-7cde-43da-97cb-cf5c0d9c7e98.png)
+
