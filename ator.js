@@ -14,11 +14,13 @@ function movimentoAtor() {
   if (keyIsDown(UP_ARROW)) {
     posicaoYator -= 2;
   }
+
   if (keyIsDown(DOWN_ARROW)) {
     if (podeSeMoverY()) {
       posicaoYator += 2;
     }
   }
+
   if (keyIsDown(RIGHT_ARROW)) {
     posicaoXator += 2;
   }
@@ -43,9 +45,11 @@ function verificarColisao() {
       posicaoYator,
       larguraAtor
     );
+    
     if (colisao) {
       colidiu();
       somDaColisao.play();
+
       if (meusPontos > 0) {
         meusPontos -= 1;
       }
