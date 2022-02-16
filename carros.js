@@ -6,7 +6,6 @@ let posicaoYcarros = [0, 50, 100, 150, 215, 265, 320];
 let movimentoXcarros = [0, 7, -6, 6, -4, 5, -3];
 
 //carros enfileirados do 1 ao 6
-
 function mostrarCarros() {
   image(
     carros[1],
@@ -66,18 +65,23 @@ function loopDosCarros() {
   if (posicaoXcarros[1] < -50) {
     posicaoXcarros[1] = 450;
   }
+
   if (posicaoXcarros[3] < -50) {
     posicaoXcarros[3] = 450;
   }
+
   if (posicaoXcarros[5] < -50) {
     posicaoXcarros[5] = 450;
   }
+
   if (posicaoXcarros[2] > 450) {
     posicaoXcarros[2] = -50;
   }
+
   if (posicaoXcarros[4] > 450) {
     posicaoXcarros[4] = -50;
   }
+  
   if (posicaoXcarros[6] > 450) {
     posicaoXcarros[6] = -50;
   }
