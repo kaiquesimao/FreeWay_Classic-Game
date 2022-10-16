@@ -7,16 +7,16 @@ let somDaColisao;
 let somDoPonto;
 
 function preload() {
-  imagemDaEstrada = loadImage("imagens/estrada.png");
-  imagemDoAtor = loadImage("imagens/ator-1.png");
-  carros[1] = loadImage("imagens/carro-1.png");
-  carros[2] = loadImage("imagens/carro-2.png");
-  carros[3] = loadImage("imagens/carro-3.png");
-  carros[4] = loadImage("imagens/carro-4.png");
-  carros[5] = loadImage("imagens/carro-5.png");
-  carros[6] = loadImage("imagens/carro-6.png");
+  imagemDaEstrada = loadImage("estrada.png");
+  imagemDoAtor = loadImage("ator-1.png");
+  carros[1] = loadImage("carro-1.png");
+  carros[2] = loadImage("carro-2.png");
+  carros[3] = loadImage("carro-3.png");
+  carros[4] = loadImage("carro-4.png");
+  carros[5] = loadImage("carro-5.png");
+  carros[6] = loadImage("carro-6.png");
 
-  trilhaSonora = loadSound("Sons/trilha.mp3");
-  somDaColisao = loadSound("Sons/colidiu.mp3");
-  somDoPonto = loadSound("Sons/pontos.wav");
+  trilhaSonora = loadSound("trilha.mp3");
+  somDaColisao = loadSound("colidiu.mp3");
+  somDoPonto = loadSound("pontos.wav");
 }
