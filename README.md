@@ -1,4 +1,4 @@
-FreeWay Classic Game
+# FreeWay Classic Game
 
 Game created with Javascript.
 
@@ -6,11 +6,13 @@ This project was created by me, in order to study the Javascript programming lan
 
 The objective of this game is to cross the street and not get hit by a car.
 
-WHERE DO I PLAY THIS GAME? This game can be played through the p5js.org using this link https://editor.p5js.org/kaique.gabriel.me/full/3HVddQTHs or uploading the game archives on this website https://editor.p5js.org.
+# WHERE DO I PLAY THIS GAME? 
+
+Go to: https://kaiquesimao.github.io/FreeWay_Classic-Game/ or use Live Server plugin for Vscode.
 
 This game can be played only on PC.
 
-HOW TO PLAY?
+# HOW TO PLAY?
 
 The up key moves the cow forward.
 
