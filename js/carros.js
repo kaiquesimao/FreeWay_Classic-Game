@@ -81,7 +81,7 @@ function loopDosCarros() {
   if (posicaoXcarros[4] > 450) {
     posicaoXcarros[4] = -50;
   }
-  
+
   if (posicaoXcarros[6] > 450) {
     posicaoXcarros[6] = -50;
   }

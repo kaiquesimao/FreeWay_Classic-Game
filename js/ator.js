@@ -45,7 +45,7 @@ function verificarColisao() {
       posicaoYator,
       larguraAtor
     );
-    
+
     if (colisao) {
       colidiu();
       somDaColisao.play();
