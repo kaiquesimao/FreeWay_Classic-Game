@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(400, 400);
-  trilhaSonora.loop();
+  userStartAudio(trilhaSonora.loop());
 }
 
 function draw() {
