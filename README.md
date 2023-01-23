@@ -2,25 +2,21 @@
 
 Game created with Javascript.
 
-This project was created by me, in order to study the Javascript programming language.
+This project was created by me, in order to study the Javascript programming language and the p5js library.
 
 The objective of this game is to cross the street and not get hit by a car.
 
 # WHERE DO I PLAY THIS GAME? 
 
-Go to: https://kaiquesimao.github.io/FreeWay_Classic-Game/ or use Live Server plugin for Vscode.
+Go to: https://kaiquesimao.github.io/FreeWay_Classic-Game
 
 This game can be played only on PC.
 
 # HOW TO PLAY?
 
-The up key moves the cow forward.
+First of all click on the page to activate the sound.
 
-The down key moves the cow backwards.
-
-The left key moves the cow to the left.
-
-The right key moves the cow to the right.
+The → ← ↓ ↑ keys moves the cow.
 
 If the cow crosses the highway you get one point.
 
